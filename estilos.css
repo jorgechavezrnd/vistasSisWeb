@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote, figure {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/*fin del reset css*/
+
+#cabeceraIndex {
+	width:91%;
+	margin:15px auto;
+}
+
+.titulo {
+	font: bold 1.7em Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 5px 0px 5px 5px;
+	color: #000;
+}
+
+.descripcion {
+	margin-top: 1em;
+	padding: 5px 0px 5px 5px;
+}
+
+.imagenCurso {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+.docente {
+	font: bold 1.2em Verdana, Geneva, sans-serif;
+	padding: 5px 0px 5px 5px;
+}
+
+.curso {
+	border: blue 2px solid;
+	margin-right: 50em;
+	margin-left: 2em;
+	margin-top: 3em;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+}
+
+.curso:hover {
+	-webkit-transform: scale(1.2);
+}
+
+#listaCursos {
+	width: 91%;
+	margin: 15px auto;
+}
