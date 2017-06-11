@@ -20,42 +20,48 @@ q:before, q:after { content:''; }
 	margin:15px auto;
 }
 
+#tablaCursos {
+	width: 85%;
+	margin: 15px auto;
+}
+
+.curso {
+	width: 50%;
+	height: 300px;
+}
+
 .titulo {
-	font: bold 1.7em Verdana, Geneva, sans-serif;
+	font: bold 2.7em Verdana, Geneva, sans-serif;
 	margin: 0;
 	padding: 5px 0px 5px 5px;
 	color: #000;
 }
 
 .descripcion {
-	margin-top: 1em;
+	font-size: 15pt;
 	padding: 5px 0px 5px 5px;
 }
 
 .imagenCurso {
-	width: 200px;
-	height: 200px;
+	width: 110px;
+	height: 110px;
 	float: right;
+	padding: 5px 5px 5px 40px;
 }
 
-.docente {
-	font: bold 1.2em Verdana, Geneva, sans-serif;
-	padding: 5px 0px 5px 5px;
+body {
+	background-image: url("imagenes/ucbFondo.jpg");
 }
 
-.curso {
-	border: blue 2px solid;
-	margin-right: 50em;
-	margin-left: 2em;
-	margin-top: 3em;
+.figura {
+	width: 95%;
+	border: yellow 2px solid;
+	background:-webkit-linear-gradient(bottom, #A9D0F5, #3FF);
+	border-radius:40px 40px 40px 40px;
+	padding: 5px 5px 5px 5px;
 	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
 }
 
-.curso:hover {
+.figura:hover {
 	-webkit-transform: scale(1.2);
-}
-
-#listaCursos {
-	width: 91%;
-	margin: 15px auto;
 }
